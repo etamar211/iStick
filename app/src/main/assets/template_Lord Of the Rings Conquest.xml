@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template>
+    <Button>
+        <layout_width>50</layout_width>
+        <layout_height>50</layout_height>
+        <text>G</text>
+        <textSize>35</textSize>
+        <textColor>#ffffff</textColor>
+        <background>@drawable/circleshape</background>
+        <ID>0</ID>
+        <layout_marginRight>150</layout_marginRight>
+        <layout_marginTop>155</layout_marginTop>
+        <alignParent>right</alignParent>
+        <action>2</action>
+        <actionType>2</actionType>
+    </Button>
+
+    <Button>
+        <layout_width>50</layout_width>
+        <layout_height>50</layout_height>
+        <text>F</text>
+        <textSize>35</textSize>
+        <textColor>#ffffff</textColor>
+        <background>@drawable/circleshape</background>
+        <ID>1</ID>
+        <layout_marginRight>205</layout_marginRight>
+        <layout_marginTop>155</layout_marginTop>
+        <alignParent>right</alignParent>
+        <action>1</action>
+        <actionType>2</actionType>
+    </Button>
+
+    <Button>
+        <layout_width>125</layout_width>
+        <layout_height>125</layout_height>
+        <text>Move</text>
+        <textSize>30</textSize>
+        <textColor>#ffffff</textColor>
+        <background>@drawable/circleshape</background>
+        <ID>2</ID>
+        <layout_marginLeft>5</layout_marginLeft>
+        <layout_marginTop>75</layout_marginTop>
+        <actionType>3</actionType>
+    </Button>
+
+    <Button>
+        <layout_width>125</layout_width>
+        <layout_height>125</layout_height>
+        <text>Zoom</text>
+        <textSize>30</textSize>
+        <textColor>#ffffff</textColor>
+        <background>@drawable/circleshape</background>
+        <ID>3</ID>
+        <layout_marginRight>5</layout_marginRight>
+        <layout_marginTop>5</layout_marginTop>
+        <action>29</action>
+        <actionType>4</actionType>
+        <alignParent>right</alignParent>
+    </Button>
+
+    <Button>
+        <layout_width>125</layout_width>
+        <layout_height>125</layout_height>
+        <text>Shoot</text>
+        <textSize>30</textSize>
+        <textColor>#ffffff</textColor>
+        <background>@drawable/circleshape</background>
+        <ID>4</ID>
+        <layout_marginRight>140</layout_marginRight>
+        <layout_marginTop>5</layout_marginTop>
+        <actionType>2</actionType>
+        <action>0</action>
+        <alignParent>right</alignParent>
+    </Button>
+
+    <Button>
+        <layout_width>125</layout_width>
+        <layout_height>125</layout_height>
+        <text>EYE</text>
+        <textSize>30</textSize>
+        <textColor>#ffffff</textColor>
+        <background>@drawable/circleshape</background>
+        <ID>5</ID>
+        <layout_marginRight>5</layout_marginRight>
+        <layout_marginTop>140</layout_marginTop>
+        <actionType>1</actionType>
+        <alignParent>right</alignParent>
+    </Button>
+
+    <Button>
+        <layout_width>125</layout_width>
+        <layout_height>125</layout_height>
+        <text>Knife</text>
+        <textSize>25</textSize>
+        <textColor>#ffffff</textColor>
+        <background>@drawable/circleshape</background>
+        <ID>6</ID>
+        <layout_marginRight>260</layout_marginRight>
+        <layout_marginTop>75</layout_marginTop>
+        <action>33</action>
+        <actionType>4</actionType>
+        <alignParent>right</alignParent>
+    </Button>
+
+
+    <Button>
+        <layout_width>50</layout_width>
+        <layout_height>50</layout_height>
+        <text>S</text>
+        <textSize>35</textSize>
+        <textColor>#ffffff</textColor>
+        <background>@drawable/circleshape</background>
+        <ID>7</ID>
+        <layout_marginRight>150</layout_marginRight>
+        <layout_marginTop>210</layout_marginTop>
+        <alignParent>right</alignParent>
+        <action>42</action>
+        <actionType>0</actionType>
+        <sleepTime>100</sleepTime>
+    </Button>
+
+</template>
